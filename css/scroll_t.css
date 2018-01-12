@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+#divBg { position:relative; width: 1000px; height:36px; OVERFLOW: hidden; z-index: 2001; background-image: url(divBg_bg.jpg); background-repeat: repeat-x; }
+#divMenu { position:absolute; }
+#divArrowLeft { position:absolute; width:30px; height: 36px; background-image: url(icon_l-1.jpg); background-repeat: no-repeat; background-position: left top; display: block;  }
+#divArrowLeft:hover { background-image: url(icon_l-1.jpg); background-repeat: no-repeat; background-position: 0px -36px; }
+#divArrowLeft a { display: block; width:30px; height: 36px; }
+#divArrowRight { position:absolute; width:30px; height: 36px;background-image: url(icon_r-1.jpg); background-repeat: no-repeat; background-position: left top; display: block; right: 0 }
+#divArrowRight:hover { background-image: url(icon_r-1.jpg); background-repeat: no-repeat; background-position: 0px -36px; }
+#divArrowRight a { display: block; width:30px; height: 36px;  }
+/* css_tabs */
+#tabs_1 {}
+#tabs_1 ul { letter-spacing:1px; white-space:nowrap; display: block; height: 36px; list-style:none; border:none; margin: 0px; padding: 0px; color: #FFF; font-family: "微軟正黑體", Arial; position: relative; left: 30px; }
+#tabs_1 ul a {}
+#tabs_1 li { display:inline; text-decoration:none; height: 36px; background-image: url(icon_line.jpg); background-repeat: no-repeat; background-position: left center; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 2px; font-style: normal; font-weight: normal; line-height: normal; padding: 0px; }
+#tabs_1 li a, #tabs_1 li a:link, #tabs_1 li a:visited { text-decoration:none; color: #FFF; height: 36px; padding: 0px; display: inline-block; margin: 0px; cursor: pointer; }
+#tabs_1 li a strong{ text-decoration:none; font-style: normal; font-weight: normal; padding-top: 0px; padding-right: 8px; padding-bottom: 0px; padding-left: 16px; margin: 0px; background-repeat: no-repeat; background-position: right top; display: inline-block; height: 36px; }
+#tabs_1 li a strong font{ margin: 0px; display: block; white-space: nowrap; padding-top: 9px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-family: "微軟正黑體", Arial; }
+
+#tabs_1 li a:hover{ color:#666; text-decoration:none; background-image: url(tabs_1_li_a_h.jpg); background-repeat: no-repeat; background-position: 8px top; }
+#tabs_1 li a:hover strong{ color:#666; background-image: url(tabs_1_li_a_b.jpg); background-repeat: no-repeat; background-position: right top; }
+
+#page_profile_1 #tabs_1 .profile_1 a {color:#666; text-decoration:none; background-image: url(tabs_1_li_a_h.jpg); background-repeat: no-repeat; background-position: 8px top; }
+#page_profile_1 #tabs_1 .profile_1 a strong {background-image: url(tabs_1_li_a_b.jpg); background-repeat: no-repeat; background-position: right top; }
+#page_profile_2 #tabs_1 .profile_2 a {color:#666; text-decoration:none; background-image: url(tabs_1_li_a_h.jpg); background-repeat: no-repeat; background-position: 8px top; }
+#page_profile_2 #tabs_1 .profile_2 a strong {background-image: url(tabs_1_li_a_b.jpg); background-repeat: no-repeat; background-position: right top; }
+#page_profile_3 #tabs_1 .profile_3 a {color:#666; text-decoration:none; background-image: url(tabs_1_li_a_h.jpg); background-repeat: no-repeat; background-position: 8px top; }
+#page_profile_3 #tabs_1 .profile_3 a strong {background-image: url(tabs_1_li_a_b.jpg); background-repeat: no-repeat; background-position: right top; }
+#page_profile_4 #tabs_1 .profile_4 a {color:#666; text-decoration:none; background-image: url(tabs_1_li_a_h.jpg); background-repeat: no-repeat; background-position: 8px top; }
+#page_profile_4 #tabs_1 .profile_4 a strong {background-image: url(tabs_1_li_a_b.jpg); background-repeat: no-repeat; background-position: right top; }
+#page_products #tabs_1 .products a {color:#666; text-decoration:none; background-image: url(tabs_1_li_a_h.jpg); background-repeat: no-repeat; background-position: 8px top; }
+#page_products #tabs_1 .products a strong {background-image: url(tabs_1_li_a_b.jpg); background-repeat: no-repeat; background-position: right top; }
+#page_new_products #tabs_1 .new_products a {color:#666; text-decoration:none; background-image: url(tabs_1_li_a_h.jpg); background-repeat: no-repeat; background-position: 8px top; }
+#page_new_products #tabs_1 .new_products a strong {background-image: url(tabs_1_li_a_b.jpg); background-repeat: no-repeat; background-position: right top; }
+#page_news #tabs_1 .news a {color:#666; text-decoration:none; background-image: url(tabs_1_li_a_h.jpg); background-repeat: no-repeat; background-position: 8px top; }
+#page_news #tabs_1 .news a strong {background-image: url(tabs_1_li_a_b.jpg); background-repeat: no-repeat; background-position: right top; }
+#page_faq #tabs_1 .faq a {color:#666; text-decoration:none; background-image: url(tabs_1_li_a_h.jpg); background-repeat: no-repeat; background-position: 8px top; }
+#page_faq #tabs_1 .faq a strong {background-image: url(tabs_1_li_a_b.jpg); background-repeat: no-repeat; background-position: right top; }
+#page_download #tabs_1 .download a {color:#666; text-decoration:none; background-image: url(tabs_1_li_a_h.jpg); background-repeat: no-repeat; background-position: 8px top; }
+#page_download #tabs_1 .download a strong {background-image: url(tabs_1_li_a_b.jpg); background-repeat: no-repeat; background-position: right top; }
+#page_contact #tabs_1 .contact a {color:#666; text-decoration:none; background-image: url(tabs_1_li_a_h.jpg); background-repeat: no-repeat; background-position: 8px top; }
+#page_contact #tabs_1 .contact a strong {background-image: url(tabs_1_li_a_b.jpg); background-repeat: no-repeat; background-position: right top; }
+#page_member #tabs_1 .member a {color:#666; text-decoration:none; background-image: url(tabs_1_li_a_h.jpg); background-repeat: no-repeat; background-position: 8px top; }
+#page_member #tabs_1 .member a strong {background-image: url(tabs_1_li_a_b.jpg); background-repeat: no-repeat; background-position: right top; }
+
+/* 下拉式選單 */
+#submenu{ position:absolute; margin:0px; padding:0px; clear: both; z-index: 300; }
+#topmu1,#topmu2,#topmu3,#topmu4,#topmu5,#topmu6,#topmu7,#topmu8,#topmu9,#topmu10{ display:none; margin: 0px; padding: 0px; }
+.group_t{ margin:0px; padding:0px; width: 200px; clear: both; background-image:url(submenu_bg.png); background-repeat:repeat; background-position: left top; display: block; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-right-color: #FFF; border-bottom-color: #FFF; border-left-color: #FFF; float: left; }
+
+
+.group_t .tabs_2{ margin:0px; padding:0px; display: block; float: left; clear: both; }
+.group_t .tabs_2 ul{ list-style:none; margin:0px; display: block; clear: both; padding: 0px; float: left; }
+.group_t .tabs_2 li{ font-family:Arial, Helvetica, sans-serif; color:#FFF; line-height:normal; list-style-type:none; display:block; text-decoration:none; margin:0px; clear: both; width: 100%; padding: 0px; }
+
+.group_t .tabs_2 li a, .group_t .tabs_2 li a:link, .group_t .tabs_2 li a:visited{ font-family:Arial, Helvetica, sans-serif; color:#FFF; line-height:normal; list-style-type:none; display:block; text-decoration:none; overflow:hidden; margin:0px; padding-top: 6px; padding-right: 0px; padding-bottom: 6px; padding-left: 0px; clear: both; list-style-image: none; width: 200px; }
+.group_t .tabs_2 li a font{ padding-left: 10px; padding-right: 10px; display: block; line-height: 1.4em; }
+.group_t .tabs_2 li:hover a{  }
+.group_t .tabs_2 li a:hover{ text-decoration:none; background-color: #333; color: #FFF; /*opacity:0.5; -moz-opacity:0.5; filter:alpha(opacity=50);*/ }
+.tabs_2_d{ margin-top:-24px; position:relative; height:9px; }
